@@ -59,7 +59,9 @@ st.markdown("""
 # =========================
 # LOAD MODEL
 # =========================
-model = tf.keras.models.load_model('model.h5')
+import pickle
+
+model = pickle.load(open("model.pkl", "rb"))
 
 with open('label_encoder_gender.pkl', 'rb') as file:
     label_encoder_gender = pickle.load(file)
