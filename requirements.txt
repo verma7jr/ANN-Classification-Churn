@@ -1,7 +1,5 @@
-tensorflow==2.16.1
-pandas
-numpy
-scikit-learn
-tensorflow
-matplotlib
 streamlit
+numpy
+pandas
+scikit-learn
+pickle-mixin
